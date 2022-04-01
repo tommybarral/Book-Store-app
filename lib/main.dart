@@ -1,7 +1,13 @@
-import 'package:book_store_app/screens/book_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import './screens/book_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
   runApp(const MyApp());
 }
 
