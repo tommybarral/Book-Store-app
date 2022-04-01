@@ -1,7 +1,14 @@
 # book_store_app
 
-A new Flutter project.
+Book Store app / application de magasin de livre.
 
 ## Packages used / paquets utilisés
 
+None for now.
+Aucun pour l'instant.
+
+
+**important:** The first capture is the original project.
+
+![cap0.png](images/cap0.png)
 ![cap1.png](images/cap1.png)
