@@ -1,6 +1,6 @@
-import 'package:book_store_app/screens/book_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import './screens/book_details_screen.dart';
 import './screens/book_screen.dart';
 
 void main() {
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       home: BookScreen(),
       routes: {
         //BookScreen.routeName: (context) => BookScreen(),
-        BookDetailsScreen.routeName: (context) => BookDetailsScreen(),
+        BookDetailsScreen.routeName: (context) => const BookDetailsScreen(),
       },
     );
   }

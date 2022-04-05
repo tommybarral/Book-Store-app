@@ -1,7 +1,7 @@
 import 'book.dart';
 
 class BookData {
-  List<Book> _bookItems = [
+  final List<Book> _bookItems = [
     Book(
       id: 'b1',
       title: 'CA',
